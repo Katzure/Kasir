@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="kasir.css">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<h1>Welcome to UNPRI Cafe  <img src="./unpri.png" alt="Unpri" style="width:300px;height:100px;"></h1>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'about')">About Us</button>
+  <button class="tablinks" onclick="openCity(event, 'menu')">Menu & Drinks</button>
+  <button class="tablinks" onclick="openCity(event, 'contact')">Contact Us</button>
+  <button class="tablinks" onclick="openCity(event, 'online')">Online Delivery</button>
+</div>
+
+<div id="about" class="tabcontent">
+ <h2>About Us</h2>
+ <table>
+  <tr>
+    <td>
+      <label> Welcome to the UNPRI Cafe UNOFFICIAL Website</br>
+      We are specialized in Western food and our Favourite main dish are Steaks</br>
+    This website are created by the college students named 'Katrin Wijaya'
+  The reason this website are made is to fulfilled her course task</label>
+    </td>
+    <td><IMG SRC="./Katrin.jpeg" alt="Katrin Wijaya" width="300" height="400"></td>
+  </tr>
+  </table>
+</br></br></br></br>
+  <table class="center">
+  <tr>
+    <td colspan="2">
+      <label>Simple Introduction for the restaurant Rooms</label>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <table class="center">
+        <tr>
+          <td>
+           <label>ROOM</label>
+          </td>
+          </tr>
+          <tr>
+          <td>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./r1.jfif" alt="Room1" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h3>Room 1</h3> 
+            <p>Tables that shared with other Customer</p> 
+            <p>Open between 10:00am - 22:00pm</p>
+          </div>
+        </div>
+      </div>
+      </td>
+      <td>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./r2.jfif" alt="Room2" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h3>Room 2</h3> 
+            <p>Tables that shared with other Customer</p> 
+            <p>Open between 9:00am - 23:00pm</p>
+          </div>
+        </div>
+      </div>
+      </td>
+      </tr>
+      </table>
+      </td>
+
+      <td>
+        <table class="center">
+          <tr>
+            <td>
+             <label>VIP</label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./v1.jfif" alt="VIP1" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h3>VIP 1</h3> 
+              <p>Room with Few Tables that are shared within families or friends</p> 
+              <p>Reservation needed</p>
+            </div>
+          </div>
+        </div>
+        </td>
+        <td>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./v2.jfif" alt="VIP2" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h3>VIP 2</h3> 
+              <p>Room with Few Tables that are shared within families or friends</p> 
+              <p>Reservation Needed</p>
+            </div>
+          </div>
+        </div>
+        </td>
+        </tr>
+        </table>
+        </td>
+</tr>
+<tr>
+        <td>
+          <table class="center">
+            <tr>
+              <td>
+               <label>SUITE</label>
+              </td>
+              </tr>
+              <tr>
+              <td>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./s1.jfif" alt="SUITE1" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h3>SUITE 1</h3> 
+                <p>Same with the VIP but with more tables, facilities and space</p> 
+                <p>Reservation Needed</p>
+              </div>
+            </div>
+          </div>
+          </td>
+          <td>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./s2.jfif" alt="SUITE2" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h3>SUITE 2</h3> 
+                <p>Same with the VIP but with more tables, facilities and space</p> 
+                <p>Reservation Needed</p>
+              </div>
+            </div>
+          </div>
+          </td>
+          </tr>
+          </table>
+          </td>
+
+          <td>
+            <table class="center">
+              <tr>
+                <td>
+                 <label>DELUXE</label>
+                </td>
+                </tr>
+                <tr>
+                <td>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./d1.jfif" alt="Deluxe 1" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h3>Deluxe 1</h3> 
+                  <p>Perfect for family gathering, party, ect.</p> 
+                  <p>Reservation Needed</p>
+                </div>
+              </div>
+            </div>
+            </td>
+            <td>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./d2.jfif" alt="Deluxe 2" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h3>Deluxe 2</h3> 
+                  <p>Perfect for family gathering, party, ect.</p> 
+                  <p>Reservation Needed</p>
+                </div>
+              </div>
+            </div>
+            </td>
+            </tr>
+            </table>
+            </td>
+          </tr>
+  </tr>
+ </table>
+</div>
+
+<div id="menu" class="tabcontent">
+<h2>Welcome To The Menu</h2>
+</br>
+</br>
+  <h4>MAIN COURSE</h4>
+<table class="center">
+<tr>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./beef.jfif" alt="Beef Steak" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Beef Steak</h3> 
+      <p>With mix of beef and few vegetables</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./chicken.jfif" alt="Chicken Steak" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Chicken Steak</h3> 
+      <p>Steak covered with mayo and truffle sauce</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./salmon.jfif" alt="Salmon Steak" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Salmon Steak</h3> 
+      <p>Fresh Salmon with wonderfull sauce</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./lamb.jfif" alt="Lamb Steak" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Lamb Steak</h3> 
+      <p>Tender Lamb Steak with magneficent sauce</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+
+</br></br></br></br>
+<h4>SIDE DISH</H4>
+<table class="center">
+<tr>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./fries.jfif" alt="French Fries" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>French Fries</h3> 
+      <p>Best combinations of side dish with the main dish</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./salad.jfif" alt="Caesar Salad" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Caesar Salad</h3> 
+      <p>Fresh vegetables combine with fresh main dish</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./corn.jfif" alt="Corn Soup" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Corn Soup</h3> 
+      <p>Warm yourself with this delicious corn soup</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./onion.jfif" alt="Onion Rings" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Onion Rings</h3> 
+      <p>The sweet and tender onion rings will make you forget that it is onion</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+
+</br></br></br></br>
+<h4>COFFEE BASE</H4>
+<table class="center">
+<tr>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./caramel.jfif" alt="Caramel Latte" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Caramel Latte</h3> 
+      <p>Drinks for you if you need coffee but sweet</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./mac.jfif" alt="Macchiatto" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Macchiatto</h3> 
+      <p>Special Coffee not like other coffee</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./americano.jfif" alt="Americano" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Americano</h3> 
+      <p>When you need a booster that are not sweet</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./mocha.jfif" alt="Mocha" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Mocha</h3> 
+      <p>Combination of coffee and a tinge of chocolate</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+
+</br></br></br></br>
+<h4>TEA</H4>
+<table class="center">
+<tr>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./mint.jfif" alt="Mint Tea" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Mint Tea</h3> 
+      <p>Fresh Mint to calm your mood</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./rose.jfif" alt="Rose Tea" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Rose Tea</h3> 
+      <p>Tea with lovely and calm fragrance</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./chamo.jfif" alt="Chamomile Tea" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Chamomile Tea</h3> 
+      <p>Another sweet tea to calm your mind</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+<td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./pea.jfif" alt="Butterfly Pea Tea" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Butterfly Pea Tea</h3> 
+      <p>Unusual but relaxing tea that rise your mood</p> 
+      <p>Favourite dish</p>
+    </div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="contact" class="tabcontent">
+  <h2>Contact Us</h2>
+<table class="center" font-size="20px"> 
+</tr>
+<td>
+<h5><label>Thank You Very Much for Visiting our Website!</label></h5>
+</td>
+</tr>
+<tr>
+<td>
+<h5><label>Is there any advice or problem from our cafe? You could contact us from this WA number [08123456789] Or you could fill this form below :)</label></h5>
+</td>
+</tr>
+<tr>
+<td>
+<table class="center">
+<form action="/action_page.php" target="_blank" method="get">
+<tr>
+<td><label for="Name">Name: </label></td>
+<td><input type="text" id="Name" style=font-size:30px; name="firstname"  placeholder="Enter first name" /></td>
+<td><input type="text" id="Name" style=font-size:30px; name="lastname" placeholder="Enter last name" /></td>
+</tr>
+
+<tr>
+<td><label for="date">Date: </label></td>
+<td><input type="date" id="date" style=font-size:30px; name="Date"></td>
+</tr>
+
+<tr>
+<td><label for="room">Room: </label></td>
+<td><select id="room" name="Room" style=font-size:30px;>
+<option value="Room 1" style=font-size:30px;>Room 1</option>
+<option value="Room 2" style=font-size:30px;>Room 2</option>
+<option value="Vip 1" style=font-size:30px;>Vip1</option>
+<option value="Vip 2" style=font-size:30px;>Vip2</option>
+<option value="Suite 1" style=font-size:30px;>Suite 1</option>
+<option value="Suite 2" style=font-size:30px;>Suite 2</option>
+<option value="Deluxe 1" style=font-size:30px;>Deluxe 1</option>
+<option value="Deluxe 2" style=font-size:30px;>Deluxe 2</option>
+</select>
+</tr>
+
+<tr>
+<td><label for="table">Table: </label></td>
+<td><input type="text" id="table" name="table" style=font-size:30px;></td>
+</tr>
+
+<tr>
+<td><label for="complain">Complain</label></td>
+<td><textarea id="complain" name="Complain" rows="4" cols="50" style=font-size:15px;></textarea></td>
+</tr>
+
+<tr>
+<td><label for="Phonenum">Phone Number: </label></td>
+<td><input type="text" id="Phonenum" name="Phonenum" style=font-size:30px;></td>
+</tr>
+
+<tr>
+<td><label for="Email">Email: </label></td>
+<td><input type="text" id="Email" name="Email" style=font-size:30px;></td>
+</tr>
+
+
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit" style=font-size:30px;></td>
+<td><input type="reset" value="Reset" style=font-size:30px;></td>
+</tr>
+</form>
+</table>
+
+</div>
+
+<div id="online" class="tabcontent">
+  <h2>ONLINE DELIVERY</h2>
+  <div class="container">
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <div class="shopping" class="center">
+            <img src="./cart.png">
+            <span class="quantity">0</span>
+        </div>
+    </header>
+
+    <div class="list">
+      
+    </div>
+</div>
+<div class="card">
+    <h1>Check Out List</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+<script src="kasir.js"></script>
+
+
+
+
+</body>
+</html>
